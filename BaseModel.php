@@ -16,6 +16,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static void truncate()
  * @method static \Illuminate\Database\Eloquent\Builder|static delete()
  *
+ * @method static \Illuminate\Contracts\Pagination\LengthAwarePaginator paginate($perPage = null, $columns = ['*'], $pageName = 'page', $page = null)
+ *
  * @method static \Illuminate\Database\Eloquent\Collection|static[] all($columns = ['*'])
  * @method static \Illuminate\Database\Eloquent\Collection|static[] get($columns = ['*'])
  * @method static \Illuminate\Database\Eloquent\Builder|static where($column, $operator = null, $value = null, $boolean = 'and')
