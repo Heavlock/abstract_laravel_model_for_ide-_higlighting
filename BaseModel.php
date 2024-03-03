@@ -24,6 +24,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|static where($column, $operator = null, $value = null, $boolean = 'and')
  * @method static \Illuminate\Database\Eloquent\Builder|static whereIn($column, $values, $boolean = 'and', $not = false)
  * @method static \Illuminate\Database\Eloquent\Builder|static whereHas($relation, $callback = null, $operator = '>=', $count = 1)
+ * @method static \Illuminate\Database\Eloquent\Builder|static whereRaw($sql, array $bindings = [])
  * @method static \Illuminate\Database\Eloquent\Builder|static with($relations)
  * @method static \Illuminate\Database\Eloquent\Builder|static select($columns)
  * @method static \Illuminate\Database\Eloquent\Builder|static orderBy($column, $direction = 'asc')
